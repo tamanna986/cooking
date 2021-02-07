@@ -1,19 +1,45 @@
-body{
-    background-color: rgb(115, 218, 218);
-}
+
 .hungryMonster{
     margin-top: 30px;
     margin-left: 30px;
-    color: blue;
+    color: rgb(45, 101, 144)
 }
 #mealContainer{
     
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, .5fr);
     grid-gap:30px;
+   
     
 }
 .mealDiv img{
-    width: 400px;
+    width: 250px;
     margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+#mealbody{
+    padding: 85px;
+    padding-top: 20px;
+}
+.meal-h3{
+    margin-left: 20px;
+    background-color: rgb(116, 144, 148);
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.background{
+    background-color:rgb(208, 221, 220)
+}
+.header-part{
+    display: flex;
+    
+}
+.navbar{
+    margin-left: 350px;
+    margin-top: 10px;
 }

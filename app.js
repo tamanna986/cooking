@@ -44,7 +44,7 @@ const mealClicked = (mealName) => {
         })
 }
 const showDetail = data => {  
-    const meal = data.meals[0];   // meal is an object
+    const meal = data.meals[0];   
     let mealDetail = document.getElementById("mealDetail");
     mealDetail.innerHTML = `
     <div>
@@ -70,7 +70,7 @@ const nothingFound = (mealInput) => {
        const mealContainer = document.getElementById("mealContainer");
   
         const h1 = document.createElement("h1");
-        h1.innerText = "No meals found";
+        h1.innerText = "Opps! Sorry dear, No meals found";
         mealContainer.appendChild(h1);
     
 }
